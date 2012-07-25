@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+/* some custom fonts via google font api */
+/*@import url(http://fonts.googleapis.com/css?family=Lobster);
+@import url(http://fonts.googleapis.com/css?family=Yanone+Kaffeesatz:extralight);
+*/
+/* content block 3 */
+#mcs3_container{
+	position:absolute; 
+	left:0px; 
+	top:50px; 
+	margin:0; 
+	width:270px; 
+	height:90%; 
+	padding:0px;  
+}
+.customScrollBox{
+	position:relative; 
+	height:100%; 
+	overflow:hidden;
+}
+.customScrollBox .container{
+	position:relative; 
+	width:250px; 
+	top:0; 
+	float:left;
+}
+.customScrollBox .content{
+	clear:both;
+	float:left;
+}
+.customScrollBox .content p{
+	
+}
+
+.dragger_container{
+	position:relative; 
+	width:0px; 
+	height:99%; 
+	float:left; 
+	margin:0px 0 0 10px; 
+	border-left:1px solid #B7CBD6; 
+	border-right:1px solid #B7CBD6; 
+	-moz-border-radius:2px; -khtml-border-radius:2px; -webkit-border-radius:2px; border-radius:2px; cursor:s-resize;
+}
+.dragger{
+	position:absolute; 
+	width:9px; 
+	height:60px; 
+	background:#00BEF2; 
+	margin-left:-5px; 
+	overflow:hidden; 
+	cursor:pointer; 
+	-moz-border-radius:6px; 
+	-khtml-border-radius:6px; 
+	-webkit-border-radius:6px; 
+	border-radius:6px;
+}
+.dragger_pressed{
+	position:absolute; 
+	width:10px; 
+	height:60px; 
+	background:#00BEF2; 
+	margin-left:-5px; 
+	overflow:hidden; 
+	cursor:pointer; 
+	-moz-border-radius:6px; 
+	-khtml-border-radius:6px; 
+	-webkit-border-radius:6px; 
+	border-radius:6px;
+}
+
+#mcs4_container{
+	position:absolute; 
+	left:0px; 
+	top:50px; 
+	margin:0; 
+	width:270px; 
+	height:90%; 
+	padding:0px;  
+}
+
+#mcs5_container{
+	position:absolute; 
+	left:20px; 
+	top:40px; 
+	margin:0; 
+	width:540px; 
+	height:500px; 
+	padding:0px;  
+	background:#6D5843;
+}
+
+#mcs6_container{
+	position:absolute; 
+	left:20px; 
+	top:40px; 
+	margin:0; 
+	width:540px; 
+	height:500px; 
+	padding:0px;  
+	background:#6D5843;
+}

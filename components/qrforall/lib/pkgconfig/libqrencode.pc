@@ -1,0 +1,9 @@
+prefix=/home/cingusoft/qrcode
+exec_prefix=${prefix}
+libdir=${exec_prefix}/lib
+includedir=${prefix}/include
+
+Name: libqrencode
+Description: A QR Code encoding library
+Version: 3.0.3
+Libs: -L${libdir} -lqrencode

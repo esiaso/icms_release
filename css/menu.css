@@ -1,0 +1,93 @@
+ul, li{
+	padding: 0px;
+	margin: 0px;
+}
+ul.dropmenu{
+	position: relative;
+	margin: 0px;
+	/*padding: 1px 0px 0px 0px;*/
+	/*background:transparent url(../images/menu/navigation.png) repeat-x scroll 0 0;*/
+	/*display:block;*/
+	height: 35px;
+	font-family:Verdana,Arial,Helvetica,sans-serif;
+	font-size: 13px;
+	/*font-weight:bold;*/
+}
+.dropmenu li{
+	position: relative;
+	list-style: none;
+	float: left;
+	margin: 0px;
+	padding: 0px;
+}
+.dropmenu li a{
+	/*height: 22px;*/
+	/*padding: 9px 20px 0px 15px;*/
+	display: block;
+	cursor: point;
+	/*border-right: solid 1px #4a779d;*/
+	color: #FFFFFF;
+	/*text-transform: uppercase;*/
+	text-decoration: none;
+}
+.dropmenu li span{
+	display: block;
+	float: right;
+	height: 20px;
+	width: 10px;
+	background:transparent url(../images/menu/arrow_up.png) repeat-x scroll 0 0;
+	position: absolute;
+	top: 20px;
+	right: 5px;
+}
+.dropmenu li  a:hover span{
+	background:transparent url(../images/menu/arrow_hover.png) repeat-x scroll 0 0;
+}
+.dropmenu li:hover ul, .dropmenu li:hover div{
+	display: block;
+}
+.dropmenu ul{
+	top: 45px;
+	position: absolute;
+	display: none;
+	width: 180px;
+	padding: 2px;
+	font-weight:100;
+	color:#015b86;
+	/*margin-top:5px;*/
+	/*border-bottom: 1px solid #ccc;*/
+	background:#F4F4F4;
+	background: -moz-linear-gradient(top, #EEEEEE, #BBBBBB);
+	background: -webkit-gradient(linear, 0% 0%, 0% 100%, from(#EEEEEE), to(#BBBBBB));
+	
+	/* Rounded Corners */
+	-moz-border-radius: 0px 5px 5px 5px;
+	-webkit-border-radius: 0px 5px 5px 5px;
+	border-radius: 0px 5px 5px 5px;
+}
+.dropmenu ul li{
+	padding:2px;
+	border: 0;
+	float: none;
+	height:25px;
+	color:#015b86;
+}
+.dropmenu ul li a {
+  	font-size:11px;
+	color:#015b86;
+	display:block;
+	width:160px;
+	padding:5px;
+	
+}
+
+.dropmenu ul li a:hover {
+	color:#fff;
+	background:#015b86;
+	padding:2px;
+	margin:0px;
+}
+.dropmenu div ul{
+	position: relative;
+	display: block;
+}

@@ -1,0 +1,125 @@
+fieldset.sectionwrap{ /*fieldset that wraps around each form "page" */
+border-width:0;
+padding:5px;
+background-color:#F8F8F8;  
+width:868px;
+text-align:left;
+overflow:visible;    
+z-index:88; 
+-webkit-border-radius: 5px;
+-moz-border-radius  : 5px;
+min-height:200px;
+}
+
+legend{ /*title shown at top of each form page */
+font:bold 16px Arial;
+color: darkred;
+width:100%;
+}
+
+div.stepsguide{ /*div that contains all the "steps" text located at top of form */ 
+ /*width: 800px;width of "steps" container*/
+overflow:hidden;
+margin-bottom:15px;
+cursor:pointer;
+padding:5px;
+ background-color:#F8F8F8;  
+  height:40px;
+  text-align:left;
+  overflow:visible;    
+  z-index:88; 
+  -webkit-border-radius: 5px;
+  -moz-border-radius  : 5px;
+  width:868px;
+}
+
+div.stepsguide .step{ /*div that wraps around each "steps" text */
+width:150px; /*width of each "steps" text*/
+font: bold 18px Arial;
+float:left;
+
+}
+
+div.stepsguide .disabledstep{ /*div that wraps around each "steps" text */
+color:#C4C4C4;
+}
+
+div.stepsguide .step .smalltext{ /*small footer text inside "steps" text */
+font-weight: normal;
+font: normal 12px Verdana, Arial, Helvetica, sans-serif;
+}
+
+div.formpaginate{ /* CSS for pagination DIV container */
+width:868px;
+overflow:hidden;
+font-weight:bold;
+text-align:center;
+margin-top:1em;
+background-color:#F8F8F8; 
+padding:5px; 
+/* height:40px;*/
+text-align:left;
+overflow:visible;    
+z-index:88; 
+-webkit-border-radius: 5px;
+-moz-border-radius  : 5px;
+}
+
+div.formpaginate .prev, div.formpaginate .next{ /*CSS for "prev" and "next" SPAN elements within paginate container */
+border-radius:5px;
+-webkit-border-radius:5px;
+-moz-border-radius:5px;
+padding:2px 5px;
+background:darkred;
+color:white;
+cursor:hand;
+cursor:pointer;
+}
+
+/* Form Styles */
+
+.txtBox {
+  border:1px solid #CCCCCC;
+  color:#5A5655;
+  font:13px Verdana,Arial,Helvetica,sans-serif;
+  padding:2px;
+  width:400px;
+}
+.txtBox:focus {
+  border:1px solid #EA8511;
+}
+
+.sectionwrap p.submit{
+    background:none;
+    border:none;
+    -moz-box-shadow:none;
+    -webkit-box-shadow:none;
+    box-shadow:none;
+}
+
+.sectionwrap button {
+	border:none;
+	outline:none;
+    -moz-border-radius: 10px;
+    -webkit-border-radius: 10px;
+    border-radius: 10px;
+    color: #ffffff;
+    display: block;
+    cursor:pointer;
+    margin: 0px auto;
+    clear:both;
+    padding: 7px 25px;
+    text-shadow: 0 1px 1px #777;
+    font-weight:bold;
+    font-family:"Century Gothic", Helvetica, sans-serif;
+    font-size:22px;
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa;
+    background:#4797ED;
+}
+.sectionwrap button:hover {
+    background:#d8d8d8;
+    color:#666;
+    text-shadow:1px 1px 1px #fff;
+}

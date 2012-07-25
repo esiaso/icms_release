@@ -1,0 +1,50 @@
+
+h4{
+	background-color:#51BCFD;
+-moz-border-radius:3px;
+-webkit-border-radius:3px;
+border-radius:3px;
+letter-spacing: 1px;
+text-transform: uppercase;
+display:inline-block;/*
+padding:5px 10px 5px 15px;*/
+font: bold 14px "Trebuchet MS", Verdana, Arial, Helvetica, sans-serif;
+}
+
+h2 {
+	padding-left:20px;
+	color:#2EB5F5;
+	display:block;
+	font-size:1.5em;
+	font-weight:bold;
+	line-height:1.5em;
+	margin-bottom:3px;
+	color:#03F; font-weight:bold; border-bottom:1px solid #E8CA80; padding:0 10px;margin:0;
+}
+
+h3 {color:#333333; font-weight: bold; font-size: 14px;}
+
+.steps{
+   
+   /* margin:3px 0px;*/
+    background-color:#f4f4f4;
+    border:1px solid #fff;
+    width:275px;
+    padding:3px;
+    -moz-border-radius: 5px;
+    -webkit-border-radius: 5px;
+    border-radius: 5px;
+    -moz-box-shadow:0px 0px 3px #aaa;
+    -webkit-box-shadow:0px 0px 3px #aaa;
+    box-shadow:0px 0px 3px #aaa; 
+	text-align:center;
+}
+.points
+{
+	background-color:#F8D78B;
+	font-size:8px;
+	padding:2px;
+	text-align:center;
+	
+}/*steps{background-color:#f4f4f4;border:1px solid #fff;width:250px; padding:3px;-moz-border-radius: 5px;-webkit-border-radius: 5px;border-radius: 5px;-moz-box-shadow:0px 0px 3px #aaa;-webkit-box-shadow:0px 0px 3px #aaa;box-shadow:0px 0px 3px #aaa; text-align:center;
+}*/

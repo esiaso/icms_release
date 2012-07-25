@@ -1,0 +1,141 @@
+
+/*
+	Slideshow
+*/
+
+#slides {
+	position:absolute;
+	top:0px;
+	left:0px;
+	z-index:100;
+}
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+
+#slides .slides_container {
+	width:675px;
+	overflow:hidden;
+	position:relative;
+	display:none;
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+#slides .slides_container div.slide {
+	width:675px;
+	height:220px;
+	display:block;
+}
+
+
+/*
+	Next/prev buttons
+*/
+
+#slides .next,#slides .prev {
+	position:absolute;
+	bottom:10px;
+	left:570px;
+	width:7px;
+	height:11px;
+	display:none;
+	z-index:101;
+}
+
+#slides .next {
+	left:585px;
+}
+
+/*
+	Pagination
+*/
+
+#slides .pagination {
+	/*margin:-26px auto 0;
+	width:100px;
+	/*display:none;*/
+	position:absolute;
+	bottom:-20px;
+	right:0px;
+	z-index:9999;
+}
+
+#slides .pagination li {
+	float:left;
+	margin:0 1px;
+	list-style:none;
+}
+
+#slides .pagination li a {
+	display:block;
+	width:12px;
+	height:0;
+	padding-top:12px;
+	background-image:url(../images/pagination.png);
+	background-position:0 0;
+	float:left;
+	overflow:hidden;
+}
+
+#slides .pagination li.current a {
+	background-position:0 -12px;
+}
+
+/*
+	Caption
+*/
+
+#slides .caption {
+	z-index:500;
+	position:absolute;
+	bottom:30px;
+	right:50px;
+	padding:10px 20px 0 20px;
+	background:#491018;
+	background:rgba(0,0,0,.5);
+	width:320px;
+	height:70px;
+	font-weight:normal;
+	font-size: 16px;
+    line-height: 26px;
+	color:#fff;
+}
+
+
+
+/*
+	Slides container
+	Important:
+	Set the width of your slides container
+	Set to display none, prevents content flash
+*/
+#slides_two .slides_container {
+	width:290px;
+	/*display:none;*/
+}
+
+/*
+	Each slide
+	Important:
+	Set the width of your slides
+	If height not specified height will be set by the slide content
+	Set to display block
+*/
+
+#slides_two .slides_container div {
+	width:290px;
+	height:250px;
+	display:block;
+}
+
