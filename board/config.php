@@ -1,12 +1,10 @@
 <?php
 	
 	define('SYSTEM_NAME','iCPDKenya');
-	define('WEBPHOTOROOT', '/home/images/portraits/');
-	define('ACTIVITIESROOT', '/home/images/activities/');
-	//define('WEBPHOTOROOT', 'http://www.icpdkenya.org/images/portraits/');
-	//define('WEBPHOTOROOT', 'D:/xampp/htdocs/cpd/images/portraits/'); //local
-	define('WEBLINK','http://www.icpdkenya.org/'); // Website link
-	//define('WEBLINK','http://localhost/cpd/'); // Website link	
+
+	define('WEBPHOTOROOT', 'D:/xampp/htdocs/icms/images/portraits/'); //local
+	define('ACTIVITIESROOT', 'D:/xampp/htdocs/icms/images/activities/');
+	define('WEBLINK','http://localhost/icms/'); // Website link	
 	define('USERPHOTODIR',WEBLINK.'images/portraits/');
 	define('ACTIVITIESDIR',WEBLINK.'images/activities/');
 	//$IMAGESIZE = 
